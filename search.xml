@@ -1,69 +1,86 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>surge测速网址</title>
+    <title>surge测速网址 dns</title>
     <url>/2024/11/01/surge/</url>
     <content><![CDATA[<table>
 <thead>
 <tr>
-<th>推荐排序</th>
+<th>排序</th>
 <th>提供厂商</th>
 <th>URL 地址</th>
+<th>热度评分</th>
+<th>大陆体验</th>
+<th>境外体验</th>
+<th>http&#x2F;https</th>
+<th>IP 版本</th>
 <th>备注</th>
-<th>可用性</th>
-<th>延迟(ms)</th>
+<th>操作</th>
 </tr>
 </thead>
 <tbody><tr>
 <td>1</td>
-<td>Apple</td>
-<td><a href="http://www.apple.com/library/test/success.html">http://www.apple.com/library/test/success.html</a></td>
-<td>对中国大陆和境外都是最友好的</td>
-<td><span id="status-1">检测中…</span></td>
-<td><span id="latency-1">检测中…</span></td>
+<td>Google</td>
+<td><a href="http://www.gstatic.com/generate_204">http://www.gstatic.com/generate_204</a></td>
+<td>10</td>
+<td>5</td>
+<td>10</td>
+<td>204&#x2F;204</td>
+<td>4+6</td>
+<td>各大代理工具默认使用的地址，体验良好</td>
+<td><button class="copy-url-btn" data-url="http://www.gstatic.com/generate_204">复制</button></td>
 </tr>
 <tr>
 <td>2</td>
-<td>高通</td>
-<td><a href="http://www.qualcomm.cn/generate_204">http://www.qualcomm.cn/generate_204</a></td>
-<td>对中国大陆和境外都是最友好的</td>
-<td><span id="status-2">检测中…</span></td>
-<td><span id="latency-2">检测中…</span></td>
+<td>Google</td>
+<td><a href="https://www.gstatic.com/generate_204">https://www.gstatic.com/generate_204</a></td>
+<td>9</td>
+<td>5</td>
+<td>10</td>
+<td>204&#x2F;204</td>
+<td>4+6</td>
+<td>TLS 延迟较高，杜绝假延迟</td>
+<td><button class="copy-url-btn" data-url="https://www.gstatic.com/generate_204">复制</button></td>
 </tr>
 <tr>
 <td>3</td>
-<td>Cloudflare</td>
-<td><a href="http://cp.cloudflare.com/">http://cp.cloudflare.com/</a></td>
-<td>境外代理节点好用，对中国大陆不太友好</td>
-<td><span id="status-3">检测中…</span></td>
-<td><span id="latency-3">检测中…</span></td>
-</tr>
-<tr>
-<td>4</td>
-<td>Google</td>
-<td><a href="http://www.gstatic.com/generate_204">http://www.gstatic.com/generate_204</a></td>
-<td>各大代理工具都默认使用的地址，对中国大陆和境外都比较友好</td>
-<td><span id="status-4">检测中…</span></td>
-<td><span id="latency-4">检测中…</span></td>
-</tr>
-<tr>
-<td>5</td>
-<td>Google</td>
-<td><a href="https://www.gstatic.com/generate_204">https://www.gstatic.com/generate_204</a></td>
-<td>TLS 延迟会比较高，但会杜绝一些假延迟的情况</td>
-<td><span id="status-5">检测中…</span></td>
-<td><span id="latency-5">检测中…</span></td>
-</tr>
-<tr>
-<td>6</td>
-<td>Microsoft</td>
-<td><a href="http://www.msftconnecttest.com/connecttest.txt">http://www.msftconnecttest.com/connecttest.txt</a></td>
-<td>入口一般</td>
-<td><span id="status-6">检测中…</span></td>
-<td><span id="latency-6">检测中…</span></td>
+<td>Apple</td>
+<td><a href="http://www.apple.com/library/test/success.html">http://www.apple.com/library/test/success.html</a></td>
+<td>8</td>
+<td>7</td>
+<td>10</td>
+<td>200&#x2F;200</td>
+<td>4+6</td>
+<td>友好性较高，适合测试</td>
+<td><button class="copy-url-btn" data-url="http://www.apple.com/library/test/success.html">复制</button></td>
 </tr>
 </tbody></table>
-<script src="/js/url-check.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const buttons = document.querySelectorAll(".copy-url-btn");
+
+  buttons.forEach(button => {
+    button.addEventListener("click", function () {
+      const url = this.getAttribute("data-url");
+      navigator.clipboard.writeText(url)
+        .then(() => alert(`已复制：${url}`))
+        .catch(err => console.error("复制失败", err));
+    });
+  });
+});
+</script>
+
+
+
+
+
+
+
+
+
+<p><a href="https://dnsdaquan.com/">全国DNS服务器IP地址大全 公共DNS大全 dns地址大全 dns大全 (dnsdaquan.com)</a></p>
+<p><a href="https://www.daniao.org/10325.html">宝塔面板+AdGuard Home搭建一个广告拦截与禁止跟踪的公共DNS服务 - 大鸟博客 (daniao.org)</a></p>
+<p><a href="https://adguard-dns.io/zh_cn/dashboard/">AdGuard DNS 仪表板 (adguard-dns.io)</a></p>
 ]]></content>
       <categories>
         <category>surge</category>
@@ -108,6 +125,142 @@
       </tags>
   </entry>
   <entry>
+    <title>一些常用软件</title>
+    <url>/2024/11/24/%E4%B8%80%E4%BA%9B%E5%B8%B8%E7%94%A8%E8%BD%AF%E4%BB%B6/</url>
+    <content><![CDATA[<h3 id="Windows"><a href="#Windows" class="headerlink" title="Windows"></a>Windows</h3><table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Everything</td>
+<td>电脑文件搜索器</td>
+<td><a href="https://www.google.com/search?q=Everything">https://www.google.com/search?q=Everything</a></td>
+</tr>
+<tr>
+<td>EmEditor</td>
+<td>超大文本编辑器</td>
+<td><a href="https://www.google.com/search?q=EmEditor">https://www.google.com/search?q=EmEditor</a></td>
+</tr>
+<tr>
+<td>uTools</td>
+<td>各种桌面功能插件</td>
+<td><a href="https://www.google.com/search?q=uTools">https://www.google.com/search?q=uTools</a></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>
+]]></content>
+      <categories>
+        <category>surge</category>
+      </categories>
+      <tags>
+        <tag>常用软件</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>巨魔商店</title>
+    <url>/2024/11/01/%E5%B7%A8%E9%AD%94%E5%95%86%E5%BA%97/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>巨魔商店</category>
+      </categories>
+      <tags>
+        <tag>巨魔商店</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>一些常用模块</title>
+    <url>/2024/11/24/%E5%B8%B8%E7%94%A8%E6%A8%A1%E5%9D%97/</url>
+    <content><![CDATA[<h1 id="TestFlight"><a href="#TestFlight" class="headerlink" title="TestFlight"></a>TestFlight</h1><p><a href="https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Module/Spec/TestFlight/Moore/TestFlight.sgmodule">https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Module/Spec/TestFlight/Moore/TestFlight.sgmodule</a></p>
+<p><a href="https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Module/Spec/TestFlight/Moore/TestFlightAccount.sgmodule">https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Module/Spec/TestFlight/Moore/TestFlightAccount.sgmodule</a></p>
+<h1 id="Boxjs"><a href="#Boxjs" class="headerlink" title="Boxjs"></a>Boxjs</h1><p><a href="https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.rewrite.surge.sgmodule">https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.rewrite.surge.sgmodule</a></p>
+<p><a href="https://www.youtube.com/watch?v=eIpBrRxiy0w">BoxJS 教程: 你的多账号会话管理神器 (youtube.com)</a></p>
+<p><a href="https://www.youtube.com/watch?v=kKa26Fj0MJA">最新BoxJS教程 | Quantumult X系列教程第三期 | 多账号签到、机场自动签到、京东价格提醒等进阶功能分享，超级简单快速上手！ (youtube.com)</a></p>
+<h1 id="Sub-store"><a href="#Sub-store" class="headerlink" title="Sub-store"></a>Sub-store</h1><h2 id="代理版"><a href="#代理版" class="headerlink" title="代理版"></a>代理版</h2><ol>
+<li><p><strong>Sub-Store 代理版</strong>: <a href="https://github.com/sub-store-org/Sub-Store/tree/master/config">安装教程</a></p>
+</li>
+<li><p><a href="https://github.com/getsomecat/GetSomeCats/blob/Surge/Substore%E7%9A%84%E4%BA%91%E5%90%8C%E6%AD%A5%E6%93%8D%E4%BD%9C%E6%AD%A5%E9%AA%A4.md">GetSomeCats&#x2F;Substore的云同步操作步骤.md at Surge · getsomecat&#x2F;GetSomeCats · GitHub</a></p>
+</li>
+<li><p><strong>使用脚本上传订阅至其他 Gist</strong>: <a href="https://t.me/zhetengsha/1428">参考</a></p>
+</li>
+<li><p><strong>给订阅添加一个流量&#x2F;过期信息的节点</strong>: <a href="https://t.me/zhetengsha/948">参考</a></p>
+</li>
+<li><p><strong>快速生成 clash.meta(mihomo) 配置示例</strong>: <a href="https://t.me/zhetengsha/1234">详细教程</a></p>
+</li>
+<li><p><strong>Sub-Store 域名解析新增 IP4P, 支持禁用缓存</strong>: <a href="https://t.me/zhetengsha/1180">详细教程</a></p>
+</li>
+</ol>
+<p><a href="https://www.notion.so/Sub-Store-6259586994d34c11a4ced5c406264b46">Sub-Store 教程 (notion.so)</a></p>
+<p><a href="https://raw.githubusercontent.com/sub-store-org/Sub-Store/master/config/Surge-Beta.sgmodule">https://raw.githubusercontent.com/sub-store-org/Sub-Store/master/config/Surge-Beta.sgmodule</a></p>
+<h2 id="订阅编辑脚本操作"><a href="#订阅编辑脚本操作" class="headerlink" title="订阅编辑脚本操作"></a>订阅编辑脚本操作</h2><p><a href="https://raw.githubusercontent.com/xream/scripts/main/surge/modules/sub-store-scripts/check/availability.js#show_latency=true&keep_incompatible=true&status=200&url=http%3A%2F%2Fwww.apple.com%2Flibrary%2Ftest%2Fsuccess.html&timeout=1000&retries=1&retry_delay=1000&concurrency=10&cache=true">https://raw.githubusercontent.com/xream/scripts/main/surge/modules/sub-store-scripts/check/availability.js#show_latency=true&amp;keep_incompatible=true&amp;status=200&amp;url=http%3A%2F%2Fwww.apple.com%2Flibrary%2Ftest%2Fsuccess.html&amp;timeout=1000&amp;retries=1&amp;retry_delay=1000&amp;concurrency=10&amp;cache=true</a></p>
+<p><a href="https://raw.githubusercontent.com/xream/scripts/main/surge/modules/sub-store-scripts/check/entrance.js#concurrency=10&timeout=5000&retries=1&cache=true">https://raw.githubusercontent.com/xream/scripts/main/surge/modules/sub-store-scripts/check/entrance.js#concurrency=10&amp;timeout=5000&amp;retries=1&amp;cache=true</a></p>
+<p><a href="https://raw.githubusercontent.com/xream/scripts/main/surge/modules/sub-store-scripts/check/geo.js#concurrency=10&timeout=5000&retries=1&cache=true">https://raw.githubusercontent.com/xream/scripts/main/surge/modules/sub-store-scripts/check/geo.js#concurrency=10&amp;timeout=5000&amp;retries=1&amp;cache=true</a></p>
+<p><a href="https://raw.githubusercontent.com/xream/scripts/main/surge/modules/sub-store-scripts/check/gpt.js#timeout=1000&retries=1&retry_delay=1000&concurrency=10&client=iOS&cache=true">https://raw.githubusercontent.com/xream/scripts/main/surge/modules/sub-store-scripts/check/gpt.js#timeout=1000&amp;retries=1&amp;retry_delay=1000&amp;concurrency=10&amp;client=iOS&amp;cache=true</a></p>
+<p><a href="https://raw.githubusercontent.com/Keywos/rule/main/rename.js#blgd&bl&blpx&one&flag&blkey=iplc+iepl+nf+SP+%E5%8E%9F%E7%94%9F+%E8%A7%A3%E9%94%81+%E4%B8%93%E7%BA%BF+NF+%E5%AE%B6%E5%AE%BD+%E5%95%86%E5%AE%BD&sn=|&name=%E7%99%BD%E5%AB%96A%E7%BB%84-&nm">https://raw.githubusercontent.com/Keywos/rule/main/rename.js#blgd&amp;bl&amp;blpx&amp;one&amp;flag&amp;blkey=iplc+iepl+nf+SP+原生+解锁+专线+NF+家宽+商宽&amp;sn=|&amp;name=白嫖A组-&amp;nm</a></p>
+<p>在节点名称前面增加协议类型 </p>
+<p>$server.name &#x3D; <code>[$&#123;$server.type&#125;] $&#123;$server.name&#125;</code></p>
+<h1 id="Boxjs-1"><a href="#Boxjs-1" class="headerlink" title="Boxjs"></a>Boxjs</h1><p><a href="https://docs.boxjs.app/">https://docs.boxjs.app/</a></p>
+<h1 id="Script-Hub"><a href="#Script-Hub" class="headerlink" title="Script Hub"></a>Script Hub</h1><p><a href="https://github.com/Script-Hub-Org/Script-Hub/wiki/%E5%AE%89%E8%A3%85">https://github.com/Script-Hub-Org/Script-Hub/wiki/安装</a><br><a href="https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/modules/script-hub.surge.sgmodule">https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/modules/script-hub.surge.sgmodule</a></p>
+<p>需要分流</p>
+<p>需要从BoxJS 获取数据</p>
+<p>BoxJS 连接失败</p>
+<p>点击设置 BoxJS 域名</p>
+<p><a href="https://docs.scriptable.app/args/">args - 可编写脚本的文档 (scriptable.app)</a></p>
+<p><a href="https://talk.automators.fm/c/scriptable/13">论坛</a></p>
+<h1 id="scriptable"><a href="#scriptable" class="headerlink" title="scriptable"></a>scriptable</h1><p>AppStore下载</p>
+]]></content>
+      <categories>
+        <category>surge</category>
+      </categories>
+      <tags>
+        <tag>常用模块</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>参考</title>
+    <url>/2024/11/24/%E6%94%B6%E8%97%8F%E5%A4%B9/</url>
+    <content><![CDATA[<h1 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h1><p><a href="https://surge.tel/">https://surge.tel/</a><br><a href="https://surge.qingr.moe/">https://surge.qingr.moe/</a><br><a href="https://github.com/NobyDa">https://github.com/NobyDa</a><br><a href="https://whatshub.top/surge">https://whatshub.top/surge</a><br><a href="https://manual.nssurge.com/">https://manual.nssurge.com/</a><br><a href="https://github.com/VirgilClyne">https://github.com/VirgilClyne</a><br><a href="https://github.com/blackmatrix7">https://github.com/blackmatrix7</a><br><a href="https://community.nssurge.com/">https://community.nssurge.com/</a><br><a href="https://wiki.surge.community/modules">https://wiki.surge.community/modules</a><br><a href="https://github.com/VirgilClyne/iRingo">https://github.com/VirgilClyne/iRingo</a><br><a href="https://yfamily.vercel.app/surge.html">https://yfamily.vercel.app/surge.html</a><br><a href="https://community.nssurge.com/t/official">https://community.nssurge.com/t/official</a><br><a href="https://book.surge.tel/surge-ios/modules">https://book.surge.tel/surge-ios/modules</a><br><a href="https://surge.mitsea.com/scripting/common">https://surge.mitsea.com/scripting/common</a><br><a href="https://book.surge.ga/surge-ios/othertools">https://book.surge.ga/surge-ios/othertools</a><br><a href="https://manual.nssurge.com/scripting/rule.html">https://manual.nssurge.com/scripting/rule.html</a><br><a href="https://manual.nssurge.com/others/http-api.html">https://manual.nssurge.com/others/http-api.html</a><br><a href="https://kb.nssurge.com/surge-knowledge-base/v/zh">https://kb.nssurge.com/surge-knowledge-base/v/zh</a><br><a href="https://manual.nssurge.com/overview/configuration.html">https://manual.nssurge.com/overview/configuration.html</a><br><a href="https://manual.nssurge.com/book/understanding-surge/cn/">https://manual.nssurge.com/book/understanding-surge/cn/</a><br><a href="https://www.notion.so/Surgio-373256ca4ac547479a09cc561be576fd">https://www.notion.so/Surgio-373256ca4ac547479a09cc561be576fd</a><br><a href="https://kb.nssurge.com/surge-knowledge-base/v/zh/license/pre-sale">https://kb.nssurge.com/surge-knowledge-base/v/zh/license/pre-sale</a><br><a href="https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge">https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge</a><br><a href="https://kb.nssurge.com/surge-knowledge-base/v/zh/guidelines/smart-group#shi-yong-fang-fa">https://kb.nssurge.com/surge-knowledge-base/v/zh/guidelines/smart-group#shi-yong-fang-fa</a></p>
+]]></content>
+      <categories>
+        <category>surge</category>
+      </categories>
+      <tags>
+        <tag>参考</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>一些模块</title>
     <url>/2024/11/24/%E6%A8%A1%E5%9D%97/</url>
     <content><![CDATA[<table>
@@ -127,6 +280,116 @@
 <td><a href="https://raw.githubusercontent.com/Keywos/rule/main/script/st/surgetool.sgmodule"><img src="/img/2.jpg" alt="result_45_843"></a></td>
 <td><a href="surge:///install-module?url=https://raw.githubusercontent.com/Keywos/rule/main/script/st/surgetool.sgmodule"><img src="/img/surge.png" alt="result_45_843"></a></td>
 <td><a href="scriptable:///run/SurgeModuleTool?url=https://raw.githubusercontent.com/Keywos/rule/main/script/st/surgetool.sgmodule"><img src="/img/scriptable.png" alt="result_45_843"></a></td>
+</tr>
+<tr>
+<td><a href="https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/modules/Panel/CFGPT/CFGPT_nowarp.sgmodule"><img src="/img/13.jpg" alt="result_45_843"></a></td>
+<td><a href="surge:///install-module?url=https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/modules/Panel/CFGPT/CFGPT_nowarp.sgmodule"><img src="/img/surge.png" alt="result_45_843"></a></td>
+<td><a href="scriptable:///run/SurgeModuleTool?url=https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/modules/Panel/CFGPT/CFGPT_nowarp.sgmodule"><img src="/img/scriptable.png" alt="result_45_843"></a></td>
+</tr>
+<tr>
+<td><a href="https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Module/Panel/Stream-All/Moore/Stream-All.sgmodule"><img src="/img/6.jpg" alt="result_45_843"></a></td>
+<td><a href="surge:///install-module?url=https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Module/Panel/Stream-All/Moore/Stream-All.sgmodule"><img src="/img/surge.png" alt="result_45_843"></a></td>
+<td><a href="scriptable:///run/SurgeModuleTool?url=https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Module/Panel/Stream-All/Moore/Stream-All.sgmodule"><img src="/img/scriptable.png" alt="result_45_843"></a></td>
+</tr>
+<tr>
+<td><a href="https://raw.githubusercontent.com/smartmimi/conf/master/surge/timecard.sgmodule"><img src="/img/4.jpg" alt="result_45_843"></a></td>
+<td><a href="surge:///install-module?url=https://raw.githubusercontent.com/smartmimi/conf/master/surge/timecard.sgmodule"><img src="/img/surge.png" alt="result_45_843"></a></td>
+<td><a href="scriptable:///run/SurgeModuleTool?url=https://raw.githubusercontent.com/smartmimi/conf/master/surge/timecard.sgmodule"><img src="/img/scriptable.png" alt="result_45_843"></a></td>
+</tr>
+<tr>
+<td><a href="https://raw.githubusercontent.com/smartmimi/conf/master/surge/functionstatus.sgmodule"><img src="/img/3.jpg" alt="result_45_843"></a></td>
+<td><a href="surge:///install-module?url=https://raw.githubusercontent.com/smartmimi/conf/master/surge/functionstatus.sgmodule"><img src="/img/surge.png" alt="result_45_843"></a></td>
+<td><a href="scriptable:///run/SurgeModuleTool?url=https://raw.githubusercontent.com/smartmimi/conf/master/surge/functionstatus.sgmodule"><img src="/img/scriptable.png" alt="result_45_843"></a></td>
+</tr>
+<tr>
+<td><a href="https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/modules/Panel/youjia.sgmodule"><img src="/img/1.jpg" alt="result_45_843"></a></td>
+<td><a href="surge:///install-module?url=https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/modules/Panel/youjia.sgmodule"><img src="/img/surge.png" alt="result_45_843"></a></td>
+<td><a href="scriptable:///run/SurgeModuleTool?url=https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/modules/Panel/youjia.sgmodule"><img src="/img/scriptable.png" alt="result_45_843"></a></td>
+</tr>
+<tr>
+<td><a href="https://raw.githubusercontent.com/TributePaulWalker/Profiles/main/Surge/Module/Surge_%20ipcheck.sgmodule"><img src="/img/7.jpg" alt="result_45_843"></a></td>
+<td><a href="surge:///install-module?url=https://raw.githubusercontent.com/TributePaulWalker/Profiles/main/Surge/Module/Surge_%20ipcheck.sgmodule"><img src="/img/surge.png" alt="result_45_843"></a></td>
+<td><a href="scriptable:///run/SurgeModuleTool?url=https://raw.githubusercontent.com/TributePaulWalker/Profiles/main/Surge/Module/Surge_%20ipcheck.sgmodule"><img src="/img/scriptable.png" alt="result_45_843"></a></td>
+</tr>
+<tr>
+<td><a href="https://raw.githubusercontent.com/TributePaulWalker/Profiles/main/Surge/Module/Surge_ConnectivityTest.sgmodule"><img src="/img/8.jpg" alt="result_45_843"></a></td>
+<td><a href="surge:///install-module?url=https://raw.githubusercontent.com/TributePaulWalker/Profiles/main/Surge/Module/Surge_ConnectivityTest.sgmodule"><img src="/img/surge.png" alt="result_45_843"></a></td>
+<td><a href="scriptable:///run/SurgeModuleTool?url=https://raw.githubusercontent.com/TributePaulWalker/Profiles/main/Surge/Module/Surge_ConnectivityTest.sgmodule"><img src="/img/scriptable.png" alt="result_45_843"></a></td>
+</tr>
+<tr>
+<td><a href="https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/modules/Connectivity_Test.sgmodule"><img src="/img/9.jpg" alt="result_45_843"></a></td>
+<td><a href="surge:///install-module?url=https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/modules/Connectivity_Test.sgmodule"><img src="/img/surge.png" alt="result_45_843"></a></td>
+<td><a href="scriptable:///run/SurgeModuleTool?url=https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/modules/Connectivity_Test.sgmodule"><img src="/img/scriptable.png" alt="result_45_843"></a></td>
+</tr>
+<tr>
+<td><a href="https://raw.githubusercontent.com/w164955/Config/main/Surge/Panel/TrafficStatistics.sgmodule"><img src="/img/10.jpg" alt="result_45_843"></a></td>
+<td><a href="surge:///install-module?url=https://raw.githubusercontent.com/w164955/Config/main/Surge/Panel/TrafficStatistics.sgmodule"><img src="/img/surge.png" alt="result_45_843"></a></td>
+<td><a href="scriptable:///run/SurgeModuleTool?url=https://raw.githubusercontent.com/w164955/Config/main/Surge/Panel/TrafficStatistics.sgmodule"><img src="/img/scriptable.png" alt="result_45_843"></a></td>
+</tr>
+<tr>
+<td><a href="https://raw.githubusercontent.com/Nebulosa-Cat/Surge/main/Panel/Network-Info/cn/Network-Info_CN.sgmodule"><img src="/img/11.jpg" alt="result_45_843"></a></td>
+<td><a href="surge:///install-module?url=https://raw.githubusercontent.com/Nebulosa-Cat/Surge/main/Panel/Network-Info/cn/Network-Info_CN.sgmodule"><img src="/img/surge.png" alt="result_45_843"></a></td>
+<td><a href="scriptable:///run/SurgeModuleTool?url=https://raw.githubusercontent.com/Nebulosa-Cat/Surge/main/Panel/Network-Info/cn/Network-Info_CN.sgmodule"><img src="/img/scriptable.png" alt="result_45_843"></a></td>
+</tr>
+<tr>
+<td><a href="https://whatshub.top/sgmodule/rumors.sgmodule"><img src="/img/12.jpg" alt="result_45_843"></a></td>
+<td><a href="surge:///install-module?url=https://whatshub.top/sgmodule/rumors.sgmodule"><img src="/img/surge.png" alt="result_45_843"></a></td>
+<td><a href="scriptable:///run/SurgeModuleTool?url=https://whatshub.top/sgmodule/rumors.sgmodule"><img src="/img/scriptable.png" alt="result_45_843"></a></td>
+</tr>
+<tr>
+<td><a href="https://raw.githubusercontent.com/Nebulosa-Cat/Surge/main/Panel/Profile-Reload/Profile-Reload.sgmodule"><img src="/img/14.jpg" alt="result_45_843"></a></td>
+<td><a href="surge:///install-module?url=https://raw.githubusercontent.com/Nebulosa-Cat/Surge/main/Panel/Profile-Reload/Profile-Reload.sgmodule"><img src="/img/surge.png" alt="result_45_843"></a></td>
+<td><a href="scriptable:///run/SurgeModuleTool?url=https://raw.githubusercontent.com/Nebulosa-Cat/Surge/main/Panel/Profile-Reload/Profile-Reload.sgmodule"><img src="/img/scriptable.png" alt="result_45_843"></a></td>
+</tr>
+<tr>
+<td><a href="https://yfamily.vercel.app/sgmodule/appsdoor.sgmodule"><img src="/img/15.jpg" alt="result_45_843"></a></td>
+<td><a href="surge:///install-module?url=https://yfamily.vercel.app/sgmodule/appsdoor.sgmodule"><img src="/img/surge.png" alt="result_45_843"></a></td>
+<td><a href="scriptable:///run/SurgeModuleTool?url=https://yfamily.vercel.app/sgmodule/appsdoor.sgmodule"><img src="/img/scriptable.png" alt="result_45_843"></a></td>
+</tr>
+<tr>
+<td><a href="https://yfamily.vercel.app/sgmodule/gpt.sgmodule"><img src="/img/18.jpg" alt="result_45_843"></a></td>
+<td><a href="surge:///install-module?url=https://yfamily.vercel.app/sgmodule/gpt.sgmodule"><img src="/img/surge.png" alt="result_45_843"></a></td>
+<td><a href="scriptable:///run/SurgeModuleTool?url=https://yfamily.vercel.app/sgmodule/gpt.sgmodule"><img src="/img/scriptable.png" alt="result_45_843"></a></td>
+</tr>
+<tr>
+<td><a href="https://yfamily.vercel.app/sgmodule/ip-api.sgmodule"><img src="/img/17.jpg" alt="result_45_843"></a></td>
+<td><a href="surge:///install-module?url=https://yfamily.vercel.app/sgmodule/ip-api.sgmodule"><img src="/img/surge.png" alt="result_45_843"></a></td>
+<td><a href="scriptable:///run/SurgeModuleTool?url=https://yfamily.vercel.app/sgmodule/ip-api.sgmodule"><img src="/img/scriptable.png" alt="result_45_843"></a></td>
+</tr>
+<tr>
+<td><a href="https://raw.githubusercontent.com/zZPiglet/Task/master/flushDNS.sgmodule"><img src="/img/16.jpg" alt="result_45_843"></a></td>
+<td><a href="surge:///install-module?url=https://raw.githubusercontent.com/zZPiglet/Task/master/flushDNS.sgmodule"><img src="/img/surge.png" alt="result_45_843"></a></td>
+<td><a href="scriptable:///run/SurgeModuleTool?url=https://raw.githubusercontent.com/zZPiglet/Task/master/flushDNS.sgmodule"><img src="/img/scriptable.png" alt="result_45_843"></a></td>
+</tr>
+<tr>
+<td><a href="https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Module/Panel/Surge-Pro/Moore/SurgePro.sgmodule"><img src="/img/19.jpg" alt="result_45_843"></a></td>
+<td><a href="surge:///install-module?url=https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Module/Panel/Surge-Pro/Moore/SurgePro.sgmodule"><img src="/img/surge.png" alt="result_45_843"></a></td>
+<td><a href="scriptable:///run/SurgeModuleTool?url=https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Module/Panel/Surge-Pro/Moore/SurgePro.sgmodule"><img src="/img/scriptable.png" alt="result_45_843"></a></td>
+</tr>
+<tr>
+<td><a href="https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/modules/Panel/Net_Speed/Net_Speed.sgmodule"><img src="/img/20.jpg" alt="result_45_843"></a></td>
+<td><a href="surge:///install-module?url=https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/modules/Panel/Net_Speed/Net_Speed.sgmodule"><img src="/img/surge.png" alt="result_45_843"></a></td>
+<td><a href="scriptable:///run/SurgeModuleTool?url=https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/modules/Panel/Net_Speed/Net_Speed.sgmodule"><img src="/img/scriptable.png" alt="result_45_843"></a></td>
+</tr>
+<tr>
+<td><a href="https://raw.githubusercontent.com/getsomecat/keywos/main/module/NetIspmini.sgmodule"><img src="/img/21.jpg" alt="result_45_843"></a></td>
+<td><a href="surge:///install-module?url=https://raw.githubusercontent.com/getsomecat/keywos/main/module/NetIspmini.sgmodule"><img src="/img/surge.png" alt="result_45_843"></a></td>
+<td><a href="scriptable:///run/SurgeModuleTool?url=https://raw.githubusercontent.com/getsomecat/keywos/main/module/NetIspmini.sgmodule"><img src="/img/scriptable.png" alt="result_45_843"></a></td>
+</tr>
+<tr>
+<td><a href="https://raw.githubusercontent.com/bears2002/bear_sugre/main/surge.sgmodule"><img src="/img/22.jpg" alt="result_45_843"></a></td>
+<td><a href="surge:///install-module?url=https://raw.githubusercontent.com/bears2002/bear_sugre/main/surge.sgmodule"><img src="/img/surge.png" alt="result_45_843"></a></td>
+<td><a href="scriptable:///run/SurgeModuleTool?url=https://raw.githubusercontent.com/bears2002/bear_sugre/main/surge.sgmodule"><img src="/img/scriptable.png" alt="result_45_843"></a></td>
+</tr>
+<tr>
+<td><a href="https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/modules/Panel/CFGPT/CFGPT_new.sgmodule"><img src="/img/23.jpg" alt="result_45_843"></a></td>
+<td><a href="surge:///install-module?url=https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/modules/Panel/CFGPT/CFGPT_new.sgmodule"><img src="/img/surge.png" alt="result_45_843"></a></td>
+<td><a href="scriptable:///run/SurgeModuleTool?url=https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/modules/Panel/CFGPT/CFGPT_new.sgmodule"><img src="/img/scriptable.png" alt="result_45_843"></a></td>
+</tr>
+<tr>
+<td><a href="https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/NodeLinkCheck/Surge.sgmodule"><img src="/img/%E5%8D%A0%E4%BD%8D%E5%9B%BE.jpg" alt="result_45_843"></a></td>
+<td><a href="surge:///install-module?url=https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/NodeLinkCheck/Surge.sgmodule"><img src="/img/surge.png" alt="result_45_843"></a></td>
+<td><a href="scriptable:///run/SurgeModuleTool?url=https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/NodeLinkCheck/Surge.sgmodule"><img src="/img/scriptable.png" alt="result_45_843"></a></td>
 </tr>
 </tbody></table>
 ]]></content>
