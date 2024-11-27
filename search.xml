@@ -156,6 +156,48 @@
 <td><a href="http://www.qualcomm.cn/generate_204">http://www.qualcomm.cn/generate_204</a></td>
 </tr>
 </tbody></table>
+<style>
+.copy-url-btn {
+  white-space: nowrap;
+  padding: 5px 10px;
+  font-size: 14px;
+  text-align: center;
+  display: inline-block;
+}
+
+/* Toast notification style */
+.toast {
+  visibility: hidden;
+  min-width: 250px;
+  margin-left: -125px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  border-radius: 2px;
+  padding: 16px;
+  position: fixed;
+  z-index: 1;
+  left: 50%;
+  bottom: 30px;
+  font-size: 17px;
+}
+
+.toast.show {
+  visibility: visible;
+  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@keyframes fadein {
+  from {bottom: 0; opacity: 0;}
+  to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadeout {
+  from {bottom: 30px; opacity: 1;}
+  to {bottom: 0; opacity: 0;}
+}
+</style>
+
 <script>
 document.addEventListener("DOMContentLoaded", function () {
   const buttons = document.querySelectorAll(".copy-url-btn");
@@ -164,56 +206,27 @@ document.addEventListener("DOMContentLoaded", function () {
     button.addEventListener("click", function () {
       const url = this.getAttribute("data-url");
       navigator.clipboard.writeText(url)
-        .then(() => alert(`已复制：${url}`))
+        .then(() => showToast(`已复制：${url}`))
         .catch(err => console.error("复制失败", err));
     });
   });
+
+  function showToast(message) {
+    const toast = document.createElement("div");
+    toast.classList.add("toast");
+    toast.textContent = message;
+    document.body.appendChild(toast);
+    toast.classList.add("show");
+
+    setTimeout(function() {
+      toast.classList.remove("show");
+      document.body.removeChild(toast);
+    }, 3000); // Toast显示3秒后消失
+  }
 });
 </script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<script>
-document.addEventListener("DOMContentLoaded", function () {
-  const buttons = document.querySelectorAll(".copy-url-btn");
-
-  buttons.forEach(button => {
-    button.addEventListener("click", function () {
-      const url = this.getAttribute("data-url");
-      navigator.clipboard.writeText(url)
-        .then(() => alert(`已复制：${url}`))
-        .catch(err => console.error("复制失败", err));
-    });
-  });
-});
-</script>
-
-
-
-
-
-
-
-
-
+<pre><code>               |
+</code></pre>
 <p><a href="https://dnsdaquan.com/">全国DNS服务器IP地址大全 公共DNS大全 dns地址大全 dns大全 (dnsdaquan.com)</a></p>
 <p><a href="https://www.daniao.org/10325.html">宝塔面板+AdGuard Home搭建一个广告拦截与禁止跟踪的公共DNS服务 - 大鸟博客 (daniao.org)</a></p>
 <p><a href="https://adguard-dns.io/zh_cn/dashboard/">AdGuard DNS 仪表板 (adguard-dns.io)</a></p>
@@ -291,17 +304,6 @@ document.addEventListener("DOMContentLoaded", function () {
       </tags>
   </entry>
   <entry>
-    <title>巨魔商店</title>
-    <url>/2024/11/01/%E5%B7%A8%E9%AD%94%E5%95%86%E5%BA%97/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>巨魔商店</category>
-      </categories>
-      <tags>
-        <tag>巨魔商店</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>一些常用模块</title>
     <url>/2024/11/24/%E5%B8%B8%E7%94%A8%E6%A8%A1%E5%9D%97/</url>
     <content><![CDATA[<h1 id="TestFlight"><a href="#TestFlight" class="headerlink" title="TestFlight"></a>TestFlight</h1><p><a href="https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Module/Spec/TestFlight/Moore/TestFlight.sgmodule">https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Module/Spec/TestFlight/Moore/TestFlight.sgmodule</a></p>
@@ -347,6 +349,17 @@ document.addEventListener("DOMContentLoaded", function () {
       </categories>
       <tags>
         <tag>常用模块</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>巨魔商店</title>
+    <url>/2024/11/01/%E5%B7%A8%E9%AD%94%E5%95%86%E5%BA%97/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>巨魔商店</category>
+      </categories>
+      <tags>
+        <tag>巨魔商店</tag>
       </tags>
   </entry>
   <entry>
