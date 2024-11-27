@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
   const urls = [
-    "https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/modules/Panel/CFGPT/CFGPT_new.sgmodule",
+    "http://www.apple.com/library/test/success.html",
     "http://www.qualcomm.cn/generate_204",
     "http://cp.cloudflare.com/",
     "http://www.gstatic.com/generate_204",
