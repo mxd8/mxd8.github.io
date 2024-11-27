@@ -1,95 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>surge测速网址 dns</title>
-    <url>/2024/11/01/surge/</url>
-    <content><![CDATA[<table>
-<thead>
-<tr>
-<th>排序</th>
-<th>提供厂商</th>
-<th>URL 地址</th>
-<th>热度评分</th>
-<th>大陆体验</th>
-<th>境外体验</th>
-<th>http&#x2F;https</th>
-<th>IP 版本</th>
-<th>备注</th>
-<th>操作</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>1</td>
-<td>Google</td>
-<td><a href="http://www.gstatic.com/generate_204">http://www.gstatic.com/generate_204</a></td>
-<td>10</td>
-<td>5</td>
-<td>10</td>
-<td>204&#x2F;204</td>
-<td>4+6</td>
-<td>各大代理工具默认使用的地址，体验良好</td>
-<td><button class="copy-url-btn" data-url="http://www.gstatic.com/generate_204">复制</button></td>
-</tr>
-<tr>
-<td>2</td>
-<td>Google</td>
-<td><a href="https://www.gstatic.com/generate_204">https://www.gstatic.com/generate_204</a></td>
-<td>9</td>
-<td>5</td>
-<td>10</td>
-<td>204&#x2F;204</td>
-<td>4+6</td>
-<td>TLS 延迟较高，杜绝假延迟</td>
-<td><button class="copy-url-btn" data-url="https://www.gstatic.com/generate_204">复制</button></td>
-</tr>
-<tr>
-<td>3</td>
-<td>Apple</td>
-<td><a href="http://www.apple.com/library/test/success.html">http://www.apple.com/library/test/success.html</a></td>
-<td>8</td>
-<td>7</td>
-<td>10</td>
-<td>200&#x2F;200</td>
-<td>4+6</td>
-<td>友好性较高，适合测试</td>
-<td><button class="copy-url-btn" data-url="http://www.apple.com/library/test/success.html">复制</button></td>
-</tr>
-</tbody></table>
-<script>
-document.addEventListener("DOMContentLoaded", function () {
-  const buttons = document.querySelectorAll(".copy-url-btn");
-
-  buttons.forEach(button => {
-    button.addEventListener("click", function () {
-      const url = this.getAttribute("data-url");
-      navigator.clipboard.writeText(url)
-        .then(() => alert(`已复制：${url}`))
-        .catch(err => console.error("复制失败", err));
-    });
-  });
-});
-</script>
-
-
-
-
-
-
-
-
-
-<p><a href="https://dnsdaquan.com/">全国DNS服务器IP地址大全 公共DNS大全 dns地址大全 dns大全 (dnsdaquan.com)</a></p>
-<p><a href="https://www.daniao.org/10325.html">宝塔面板+AdGuard Home搭建一个广告拦截与禁止跟踪的公共DNS服务 - 大鸟博客 (daniao.org)</a></p>
-<p><a href="https://adguard-dns.io/zh_cn/dashboard/">AdGuard DNS 仪表板 (adguard-dns.io)</a></p>
-]]></content>
-      <categories>
-        <category>surge</category>
-      </categories>
-      <tags>
-        <tag>dns设置</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hello World</title>
     <url>/2024/11/26/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
@@ -117,6 +28,196 @@ document.addEventListener("DOMContentLoaded", function () {
     <title>test</title>
     <url>/2024/11/24/test/</url>
     <content><![CDATA[]]></content>
+      <categories>
+        <category>surge</category>
+      </categories>
+      <tags>
+        <tag>dns设置</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>surge测速网址 dns</title>
+    <url>/2024/11/01/surge/</url>
+    <content><![CDATA[<table>
+<thead>
+<tr>
+<th>id</th>
+<th>厂商</th>
+<th>操作</th>
+<th>地址</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td>Google</td>
+<td><button class="copy-url-btn" data-url="http://www.gstatic.com/generate_204">复制</button></td>
+<td><a href="http://www.gstatic.com/generate_204">http://www.gstatic.com/generate_204</a></td>
+</tr>
+<tr>
+<td>2</td>
+<td>Google</td>
+<td><button class="copy-url-btn" data-url="https://www.gstatic.com/generate_204">复制</button></td>
+<td><a href="https://www.gstatic.com/generate_204">https://www.gstatic.com/generate_204</a></td>
+</tr>
+<tr>
+<td>3</td>
+<td>Apple</td>
+<td><button class="copy-url-btn" data-url="http://www.apple.com/library/test/success.html">复制</button></td>
+<td><a href="http://www.apple.com/library/test/success.html">http://www.apple.com/library/test/success.html</a></td>
+</tr>
+<tr>
+<td>4</td>
+<td>Google</td>
+<td><button class="copy-url-btn" data-url="http://connectivitycheck.gstatic.com/generate_204">复制</button></td>
+<td><a href="http://connectivitycheck.gstatic.com/generate_204">http://connectivitycheck.gstatic.com/generate_204</a></td>
+</tr>
+<tr>
+<td>5</td>
+<td>Microsoft</td>
+<td><button class="copy-url-btn" data-url="http://www.msftconnecttest.com/connecttest.txt">复制</button></td>
+<td><a href="http://www.msftconnecttest.com/connecttest.txt">http://www.msftconnecttest.com/connecttest.txt</a></td>
+</tr>
+<tr>
+<td>6</td>
+<td>Google</td>
+<td><button class="copy-url-btn" data-url="http://www.google.com/generate_204">复制</button></td>
+<td><a href="http://www.google.com/generate_204">http://www.google.com/generate_204</a></td>
+</tr>
+<tr>
+<td>7</td>
+<td>Cloudflare</td>
+<td><button class="copy-url-btn" data-url="http://cp.cloudflare.com/generate_204">复制</button></td>
+<td><a href="http://cp.cloudflare.com/generate_204">http://cp.cloudflare.com/generate_204</a></td>
+</tr>
+<tr>
+<td>8</td>
+<td>Apple</td>
+<td><button class="copy-url-btn" data-url="http://captive.apple.com/">复制</button></td>
+<td><a href="http://captive.apple.com/">http://captive.apple.com/</a></td>
+</tr>
+<tr>
+<td>9</td>
+<td>Google</td>
+<td><button class="copy-url-btn" data-url="http://www.google-analytics.com/generate_204">复制</button></td>
+<td><a href="http://www.google-analytics.com/generate_204">http://www.google-analytics.com/generate_204</a></td>
+</tr>
+<tr>
+<td>10</td>
+<td>小米</td>
+<td><button class="copy-url-btn" data-url="http://connect.rom.miui.com/generate_204">复制</button></td>
+<td><a href="http://connect.rom.miui.com/generate_204">http://connect.rom.miui.com/generate_204</a></td>
+</tr>
+<tr>
+<td>11</td>
+<td>Vivo</td>
+<td><button class="copy-url-btn" data-url="http://wifi.vivo.com.cn/generate_204">复制</button></td>
+<td><a href="http://wifi.vivo.com.cn/generate_204">http://wifi.vivo.com.cn/generate_204</a></td>
+</tr>
+<tr>
+<td>12</td>
+<td>Firefox</td>
+<td><button class="copy-url-btn" data-url="http://detectportal.firefox.com/success.txt">复制</button></td>
+<td><a href="http://detectportal.firefox.com/success.txt">http://detectportal.firefox.com/success.txt</a></td>
+</tr>
+<tr>
+<td>13</td>
+<td>华为</td>
+<td><button class="copy-url-btn" data-url="http://connectivitycheck.platform.hicloud.com/generate_204">复制</button></td>
+<td><a href="http://connectivitycheck.platform.hicloud.com/generate_204">http://connectivitycheck.platform.hicloud.com/generate_204</a></td>
+</tr>
+<tr>
+<td>14</td>
+<td>阿里</td>
+<td><button class="copy-url-btn" data-url="http://g.alicdn.com/">复制</button></td>
+<td><a href="http://g.alicdn.com/">http://g.alicdn.com/</a></td>
+</tr>
+<tr>
+<td>15</td>
+<td>腾讯</td>
+<td><button class="copy-url-btn" data-url="http://file.myqcloud.com/">复制</button></td>
+<td><a href="http://file.myqcloud.com/">http://file.myqcloud.com/</a></td>
+</tr>
+<tr>
+<td>16</td>
+<td>V2ex</td>
+<td><button class="copy-url-btn" data-url="http://www.v2ex.com/generate_204">复制</button></td>
+<td><a href="http://www.v2ex.com/generate_204">http://www.v2ex.com/generate_204</a></td>
+</tr>
+<tr>
+<td>17</td>
+<td>Microsoft</td>
+<td><button class="copy-url-btn" data-url="http://edge.microsoft.com/captiveportal/generate_204">复制</button></td>
+<td><a href="http://edge.microsoft.com/captiveportal/generate_204">http://edge.microsoft.com/captiveportal/generate_204</a></td>
+</tr>
+<tr>
+<td>18</td>
+<td>高通</td>
+<td><button class="copy-url-btn" data-url="http://www.qualcomm.cn/generate_204">复制</button></td>
+<td><a href="http://www.qualcomm.cn/generate_204">http://www.qualcomm.cn/generate_204</a></td>
+</tr>
+</tbody></table>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const buttons = document.querySelectorAll(".copy-url-btn");
+
+  buttons.forEach(button => {
+    button.addEventListener("click", function () {
+      const url = this.getAttribute("data-url");
+      navigator.clipboard.writeText(url)
+        .then(() => alert(`已复制：${url}`))
+        .catch(err => console.error("复制失败", err));
+    });
+  });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const buttons = document.querySelectorAll(".copy-url-btn");
+
+  buttons.forEach(button => {
+    button.addEventListener("click", function () {
+      const url = this.getAttribute("data-url");
+      navigator.clipboard.writeText(url)
+        .then(() => alert(`已复制：${url}`))
+        .catch(err => console.error("复制失败", err));
+    });
+  });
+});
+</script>
+
+
+
+
+
+
+
+
+
+<p><a href="https://dnsdaquan.com/">全国DNS服务器IP地址大全 公共DNS大全 dns地址大全 dns大全 (dnsdaquan.com)</a></p>
+<p><a href="https://www.daniao.org/10325.html">宝塔面板+AdGuard Home搭建一个广告拦截与禁止跟踪的公共DNS服务 - 大鸟博客 (daniao.org)</a></p>
+<p><a href="https://adguard-dns.io/zh_cn/dashboard/">AdGuard DNS 仪表板 (adguard-dns.io)</a></p>
+]]></content>
       <categories>
         <category>surge</category>
       </categories>
