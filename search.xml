@@ -25,17 +25,6 @@
       </tags>
   </entry>
   <entry>
-    <title>test</title>
-    <url>/2024/11/24/test/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>surge</category>
-      </categories>
-      <tags>
-        <tag>dns设置</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>surge测速网址 dns</title>
     <url>/2024/11/01/surge/</url>
     <content><![CDATA[<table>
@@ -304,10 +293,50 @@ document.addEventListener("DOMContentLoaded", function () {
       </tags>
   </entry>
   <entry>
+    <title>test</title>
+    <url>/2024/11/24/test/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>surge</category>
+      </categories>
+      <tags>
+        <tag>dns设置</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>巨魔商店</title>
+    <url>/2024/11/01/%E5%B7%A8%E9%AD%94%E5%95%86%E5%BA%97/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>巨魔商店</category>
+      </categories>
+      <tags>
+        <tag>巨魔商店</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>一些常用模块</title>
     <url>/2024/11/24/%E5%B8%B8%E7%94%A8%E6%A8%A1%E5%9D%97/</url>
-    <content><![CDATA[<h1 id="TestFlight"><a href="#TestFlight" class="headerlink" title="TestFlight"></a>TestFlight</h1><p><a href="https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Module/Spec/TestFlight/Moore/TestFlight.sgmodule">https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Module/Spec/TestFlight/Moore/TestFlight.sgmodule</a></p>
-<p><a href="https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Module/Spec/TestFlight/Moore/TestFlightAccount.sgmodule">https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Module/Spec/TestFlight/Moore/TestFlightAccount.sgmodule</a></p>
+    <content><![CDATA[<h1 id="TestFlight"><a href="#TestFlight" class="headerlink" title="TestFlight"></a>TestFlight</h1><p>解决，TestFlight无法安装 XXX 所请求的App不可用或不存在</p>
+<table>
+<thead>
+<tr>
+<th>模块图</th>
+<th>Surge</th>
+<th>scriptable</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Module/Spec/TestFlight/Moore/TestFlight.sgmodule"><img src="/img/%E5%8D%A0%E4%BD%8D%E5%9B%BE.jpg" alt="result_45_843"></a></td>
+<td><a href="surge:///install-module?url=https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Module/Spec/TestFlight/Moore/TestFlight.sgmodule"><img src="/img/surge.png" alt="result_45_843"></a></td>
+<td><a href="scriptable:///run/SurgeModuleTool?url=https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Module/Spec/TestFlight/Moore/TestFlight.sgmodule"><img src="/img/scriptable.png" alt="result_45_843"></a></td>
+</tr>
+<tr>
+<td><a href="https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Module/Spec/TestFlight/Moore/TestFlightAccount.sgmodule"><img src="/img/%E5%8D%A0%E4%BD%8D%E5%9B%BE.jpg" alt="result_45_843"></a></td>
+<td><a href="surge:///install-module?url=https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Module/Spec/TestFlight/Moore/TestFlightAccount.sgmodule"><img src="/img/surge.png" alt="result_45_843"></a></td>
+<td><a href="scriptable:///run/SurgeModuleTool?url=https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Module/Spec/TestFlight/Moore/TestFlightAccount.sgmodule"><img src="/img/scriptable.png" alt="result_45_843"></a></td>
+</tr>
+</tbody></table>
 <h1 id="Boxjs"><a href="#Boxjs" class="headerlink" title="Boxjs"></a>Boxjs</h1><p><a href="https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.rewrite.surge.sgmodule">https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.rewrite.surge.sgmodule</a></p>
 <p><a href="https://www.youtube.com/watch?v=eIpBrRxiy0w">BoxJS 教程: 你的多账号会话管理神器 (youtube.com)</a></p>
 <p><a href="https://www.youtube.com/watch?v=kKa26Fj0MJA">最新BoxJS教程 | Quantumult X系列教程第三期 | 多账号签到、机场自动签到、京东价格提醒等进阶功能分享，超级简单快速上手！ (youtube.com)</a></p>
@@ -349,17 +378,6 @@ document.addEventListener("DOMContentLoaded", function () {
       </categories>
       <tags>
         <tag>常用模块</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>巨魔商店</title>
-    <url>/2024/11/01/%E5%B7%A8%E9%AD%94%E5%95%86%E5%BA%97/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>巨魔商店</category>
-      </categories>
-      <tags>
-        <tag>巨魔商店</tag>
       </tags>
   </entry>
   <entry>
